@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERALS */
+
+header, main {
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: calc(100vh - 50px);
+}
+
+header {
+    padding: 10px;
+    height: 50px;
+}
+header .box-header {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-header span{   
+    margin-left: 10px;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #4A4A4A;
+}
+
