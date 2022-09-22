@@ -12,13 +12,14 @@ header, main {
 }
 
 main {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 145px);
+    overflow: auto;
 }
 /*      // // //      */
 
 header {
     padding: 10px;
-    height: 50px;
+    height: 80px;
 }
 header .box-header {
     width: 100%;
@@ -38,19 +39,35 @@ header .box-header {
 main .call-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     margin: 0 auto;
-}
-main .video-box{
-    float: left;
-    position: relative;
-    width: calc(100vw / 7);
+
 }
 
+
+main .video-img{
+    width: 200px;
+    height: 120px;
+    position: relative;
+}
+main .video-img img{
+    width: 100%;
+}
+
+main .video-box{
+    margin: 5px;
+}
 main .video-box .name{
+    font-size: 1vw;
     position: absolute;
     bottom: 0px;
     left: 0px;
     padding: 5px;
     background-color: rgba(0, 0, 0, .3);
+}
+
+footer{
+    height: 65px;
+    background-color: #222222;
 }
